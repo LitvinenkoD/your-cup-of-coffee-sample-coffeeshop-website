@@ -409,8 +409,9 @@ a{
 
   .image-gallery-block__image{
     // Placeholder value to be readjusted in js
-    --height: 100px;
+    --height: 236px;
     max-height: var(--height);
+    height: var(--height);
   }
 }
 

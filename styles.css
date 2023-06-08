@@ -274,8 +274,9 @@ a {
     column-gap: 16px;
   }
   .image-gallery-block__image {
-    --height: 100px;
+    --height: 236px;
     max-height: var(--height);
+    height: var(--height);
   }
 }
 /* Google maps section */

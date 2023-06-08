@@ -236,7 +236,7 @@ document.addEventListener("scroll", e =>{
   const animated_object_left_2 = document.querySelector("[data-image-2-1]")
   const animated_object_right_2 = document.querySelector("[data-text-2-1]")
 
-  const view_threshold = .8 * window.innerHeight
+  const view_threshold = .85 * window.innerHeight
 
   const animated_objects_left = [animated_object_left_1, animated_object_left_2]
   const animated_objects_right = [animated_object_right_1, animated_object_right_2]
