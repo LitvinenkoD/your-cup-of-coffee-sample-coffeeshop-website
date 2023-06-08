@@ -51,6 +51,7 @@ export function setMarginBelowNavbar(element_below_navbar){
   
   if (element_below_navbar != null){
     const desired_height = navbar.getBoundingClientRect().height
+    console.log(desired_height);
     element_below_navbar.style.setProperty("--navbar-height", desired_height + "px")
   }
 

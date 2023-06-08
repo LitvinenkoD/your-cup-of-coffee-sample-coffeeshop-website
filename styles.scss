@@ -289,7 +289,7 @@ a{
 
 .hero{
   min-height: 100vh;
-  background: url("./assets/img/bg candidate 2.jpg");
+  background: url("./assets/img/hero-bg.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -603,7 +603,7 @@ a{
 
 .menu-container{
   // used in js
-  --navbar-height: 0px;
+  --navbar-height: 74px;
   margin-top: calc(4 * $margin-unit + var(--navbar-height));
   flex-direction: column;
 }
@@ -707,7 +707,7 @@ a{
 /* General Styling */
 
 .gallery-master-container{
-  --navbar-height: 95px;
+  --navbar-height: 74px;
   margin-top: calc(4 * $margin-unit + var(--navbar-height));
 }
 
