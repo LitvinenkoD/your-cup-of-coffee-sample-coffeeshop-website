@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Cup Of Coffee</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+  <script src="script-menu.js" defer type="module"></script>
+</head>
+<body>
+
+  <nav class="nav | flexbox-container" data-nav-bar>
+    <a class="logo-master | flexbox-container" target=”_blank” href=""><img class="nav-logo-img" src="./assets/img/newlogoblack.png" alt="Logo" data-navbar-logo> <p class="nav-logo-text">Your Cup of Coffee</p></a>
+    <div class="nav-interactables | flexbox-container">
+
+      <div class="nav-links | flexbox-container" data-nav-links>
+        <a href="./index.html">Home</a>
+        <a href="./menu.html">Menu</a>
+        <a href="./gallery.html">Gallery</a>
+        <a href="tel:9999999999">Contact Us</a>
+      </div>
+      <i class="nav-menu-button nav-icon | fa-solid fa-bars" data-hamburger-menu></i>
+    </div>
+  </nav>
+
+  <!-- add a margin equal to navbar size (use js) -->
+
+  <div class="menu-container | flexbox-container wrapper menu-flow" data-menu-container>
+    <div class="menu-section">
+      <h1 class="menu-section__heading">Coffee</h1>
+      <div class="menu-items">
+
+        <div class="menu-item">
+          <div class="menu-section-pricepoints | three-column-grid">
+            <h2 class="menu-item__pricepoint">Small</h2>
+            <h2 class="menu-item__pricepoint">Medium</h2>
+            <h2 class="menu-item__pricepoint">Large</h2>
+          </div>
+        </div>
+
+
+        <div class="menu-item">
+          <h2 class="menu-item__name">Espresso</h2>
+          <div class="menu-item__cost | three-column-grid">
+            <p>$2.49</p>
+            <p>-----</p>
+            <p>-----</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <h2 class="menu-item__name">Cappucino</h2>
+          <div class="menu-item__cost | three-column-grid">
+            <p>$2.99</p>
+            <p>$3.49</p>
+            <p>$3.99</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <h2 class="menu-item__name">Latte</h2>
+          <div class="menu-item__cost | three-column-grid">
+            <p>$2.99</p>
+            <p>$3.49</p>
+            <p>$3.99</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <h2 class="menu-item__name">Americano</h2>
+          <div class="menu-item__cost | three-column-grid">
+            <p>$1.99</p>
+            <p>$2.49</p>
+            <p>$2.99</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <div class="menu-section">
+      <h1 class="menu-section__heading">Tea</h1>
+      <div class="menu-items">
+
+        <div class="menu-item">
+          <div class="menu-section-pricepoints | three-column-grid">
+            <h2 class="menu-item__pricepoint">Small</h2>
+            <h2 class="menu-item__pricepoint">Medium</h2>
+            <h2 class="menu-item__pricepoint">Large</h2>
+          </div>
+        </div>
+
+
+        <div class="menu-item">
+          <h2 class="menu-item__name">Earl Grey</h2>
+          <div class="menu-item__cost | three-column-grid">
+            <p>$1.99</p>
+            <p>$2.49</p>
+            <p>$2.75</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <h2 class="menu-item__name">English Breakfast</h2>
+          <div class="menu-item__cost | three-column-grid">
+            <p>$1.99</p>
+            <p>$2.49</p>
+            <p>$2.75</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <h2 class="menu-item__name">Chamomile</h2>
+          <div class="menu-item__cost | three-column-grid">
+            <p>$1.99</p>
+            <p>$2.49</p>
+            <p>$2.75</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="menu-section">
+      <h1 class="menu-section__heading">Iced Drinks</h1>
+      <div class="menu-items">
+
+        <div class="menu-item">
+          <div class="menu-section-pricepoints | three-column-grid">
+            <h2 class="menu-item__pricepoint">Small</h2>
+            <h2 class="menu-item__pricepoint">Medium</h2>
+            <h2 class="menu-item__pricepoint">Large</h2>
+          </div>
+        </div>
+
+
+        <div class="menu-item">
+          <h2 class="menu-item__name">Iced Coffee</h2>
+          <div class="menu-item__cost | three-column-grid">
+            <p>$2.49</p>
+            <p>$2.99</p>
+            <p>$3.49</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <h2 class="menu-item__name">Iced Latte</h2>
+          <div class="menu-item__cost | three-column-grid">
+            <p>$2.99</p>
+            <p>$3.49</p>
+            <p>$3.99</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <h2 class="menu-item__name">Caramel Frapp</h2>
+          <div class="menu-item__cost | three-column-grid">
+            <p>$2.49</p>
+            <p>$3.49</p>
+            <p>$4.49</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <h2 class="menu-item__name">Iced Americano</h2>
+          <div class="menu-item__cost | three-column-grid">
+            <p>$1.99</p>
+            <p>$2.49</p>
+            <p>$2.99</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="menu-section">
+      <h1 class="menu-section__heading">Sandwiches</h1>
+      <p class="menu-section__paragraph">Served with choice of house salad or potato chips</p>
+      <div class="menu-items">
+
+        <div class="menu-item">
+          <div class="menu-section-pricepoints | three-column-grid">
+            <h2 class="menu-item__pricepoint"></h2>
+            <h2 class="menu-item__pricepoint">Half</h2>
+            <h2 class="menu-item__pricepoint">Full</h2>
+          </div>
+        </div>
+
+
+        <div class="menu-item">
+          <div class="menu-item__name">
+            <h2 class="menu-item__name">Chicken Grill</h2>
+            <p>Greens, mozzarella, tomato, basil sauce, ciabatta bread</p> 
+          </div>
+
+          <div class="menu-item__cost | three-column-grid">
+            <p></p>
+            <p>$6.49</p>
+            <p>$8.99</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <!-- <h2 class="menu-item__name">Beef Sandwich</h2> -->
+
+          <div class="menu-item__name">
+            <h2 class="menu-item__name">Beef Steak</h2>
+            <p>Beef, mushroom, tomato, bell pepper, sharp cheddar cheese, onion, whole wheat bread</p> 
+          </div>
+          
+          <div class="menu-item__cost | three-column-grid">
+            <p></p>
+            <p>$6.49</p>
+            <p>$8.99</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <!-- <h2 class="menu-item__name">Vegan Tofu</h2> -->
+          <div class="menu-item__name">
+            <h2 class="menu-item__name">Vegan Tofu</h2>
+            <p>Tomatoes, cauliflower, avocado, artichokes, cream cheese, ciabatta bread</p> 
+          </div>
+
+          <div class="menu-item__cost | three-column-grid">
+            <p></p>
+            <p>$5.49</p>
+            <p>$7.99</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="menu-section">
+      <h1 class="menu-section__heading">Pastries</h1>
+      <p class="menu-section__paragraph">All pastries come in one size</p>
+      <div class="menu-items">
+
+        <div class="menu-item">
+          <h2 class="menu-item__name">Butter Croissant</h2>
+          <div class="menu-item__cost | three-column-grid">
+            <p></p>
+            <p>$2.49</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <h2 class="menu-item__name">Chocolate Croissant</h2>
+          <div class="menu-item__cost | three-column-grid">
+            <p></p>
+            <p>$2.49</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <h2 class="menu-item__name">English Muffin</h2>
+          <div class="menu-item__cost | three-column-grid">
+            <p></p>
+            <p>$2.49</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <h2 class="menu-item__name">Homemade Brownie</h2>
+          <div class="menu-item__cost | three-column-grid">
+            <p></p>
+            <p>$4.49</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <h2 class="menu-item__name">Plain Donut</h2>
+          <div class="menu-item__cost | three-column-grid">
+            <p></p>
+            <p>$1.99</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <h2 class="menu-item__name">Fruit Pastry</h2>
+          <div class="menu-item__cost | three-column-grid">
+            <p></p>
+            <p>$3.79</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <footer class="footer | flexbox-container content-flow">
+    <h2>OPEN DAILY</h2>
+    <div class="footer__main-content | wrapper">
+      <div class="footer-content-group | flexbox-container">
+        <h2>Contact</h2>
+        <p>Phone <a class="text-bold" href="tel:2017779999">(201) 777-9999</a></p>
+        <p class="text-bold">Email: <a href="mailto: info@mycafe.com">info@mycafe.com</a></p>
+      </div>
+      <div class="footer-content-group | flexbox-container">
+        <h2>Location</h2>
+        <p>Rome</p>
+        <p>City Main Sqare</p>
+      </div>
+      <div class="footer-content-group | flexbox-container">
+        <h2>Connect with us</h2>
+        <div class="nav-social">
+          <a href="https://www.facebook.com" target=”_blank”><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.instagram.com" target=”_blank”><i class="fa-brands fa-instagram"></i></a>
+          
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
